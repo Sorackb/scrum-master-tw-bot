@@ -9,7 +9,7 @@ const resolve = (err) => {
     return false;
   }
 
-  console.log(`POSTED: ${status}`);
+  console.error(`POSTED: ${status}`);
 }
 
 const post = (bot, status) => {
