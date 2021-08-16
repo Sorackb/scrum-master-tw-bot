@@ -1,0 +1,12 @@
+{
+  "scheduled": {
+    "daily": {
+      "standup": "Bora pra Daily, time?",
+      "email": "Pessoal, recebi um email aqui do time de produto",
+      "align": "Eae pessoal! Como estamos?"
+    },
+    "weekly": {
+      "sprint": "Pessoal, bora fazer nossa sprint semanal?"
+    }
+  }
+}
