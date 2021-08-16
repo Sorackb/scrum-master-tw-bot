@@ -2,6 +2,8 @@ const Twit = require('twit');
 
 const scheduled = require('./scheduled');
 
+console.time('Starting');
+
 const bot = new Twit({
   consumer_key: process.env.TWITTER_API_KEY,
   consumer_secret: process.env.TWITTER_API_SECRET_KEY,
@@ -11,3 +13,5 @@ const bot = new Twit({
 });
 
 scheduled.start(bot);
+
+console.timeEnd('Starting');
