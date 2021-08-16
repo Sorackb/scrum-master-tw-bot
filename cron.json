@@ -1,5 +1,5 @@
 [
-  { "expression": "5 17 * * *", "key": "scheduled.daily.standup" },
+  { "expression": "8 17 * * *", "key": "scheduled.daily.standup" },
   { "expression": "45 9 * * 1-5", "key": "scheduled.daily.standup" },
   { "expression": "0 11 * * 1-5", "key": "scheduled.daily.email" },
   { "expression": "0 15 * * 1-5", "key": "scheduled.daily.align" },
