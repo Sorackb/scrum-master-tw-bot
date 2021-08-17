@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const Twit = require('twit');
 
 const scheduled = require('./scheduled');
