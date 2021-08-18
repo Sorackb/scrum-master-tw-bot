@@ -14,7 +14,11 @@ const resolve = (err, status) => {
   return true;
 };
 
-const post = (bot, status) => {
+const post = (bot, keys) => {
+  const index = Math.floor(Math.random() * keys.length);
+  const key = keys[index];
+  const status = identify(key, process.env.LANGUAGE);
+
   bot.post(
     'statuses/update',
     { status },
@@ -23,8 +27,8 @@ const post = (bot, status) => {
 };
 
 const start = (bot) => {
-  list.forEach(({ expression, key }) => (
-    cron.schedule(expression, () => post(bot, identify(key, process.env.LANGUAGE)))
+  list.forEach(({ expression, keys }) => (
+    cron.schedule(expression, () => post(bot, keys))
   ));
 };
 

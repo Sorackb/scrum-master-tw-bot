@@ -1,6 +1,6 @@
 [
-  { "expression": "45 9 * * 1-5", "key": "scheduled.daily.standup" },
-  { "expression": "0 11 * * 1-5", "key": "scheduled.daily.email" },
-  { "expression": "0 15 * * 1-5", "key": "scheduled.daily.align" },
-  { "expression": "0 16 * * 5", "key": "scheduled.weekly.sprint" }
+  { "expression": "45 9 * * 1-5", "keys": ["scheduled.daily.standup1", "scheduled.daily.standup2", "scheduled.daily.standup3", "scheduled.daily.standup4"] },
+  { "expression": "0 11 * * 3", "keys": ["scheduled.daily.email"] },
+  { "expression": "0 15 * * 1-5", "keys": ["scheduled.daily.align1", "scheduled.daily.align2", "scheduled.daily.align3", "scheduled.daily.align4"] },
+  { "expression": "0 16 * * 5", "keys": ["scheduled.weekly.sprint"] }
 ]
