@@ -1,18 +1,26 @@
 {
   "scheduled": {
     "daily": {
-      "standup1": "Bora pra Daily, time?",
-      "standup2": "Todo mundo preparado pra daily?",
-      "standup3": "Aquele momento ótimo do dia! Vamos alinhas na nossa daily!",
-      "standup4": "Opa time, bora fazer a nossa reunião diária!?",
-      "email": "Pessoal, recebi um email aqui do time de produto",
-      "align1": "Eae pessoal! Como estamos?",
-      "align2": "Fala galerinha! Algum impedimento?",
-      "align3": "Opa gente! Tudo dentro pra entregarmos o projeto?",
-      "align4": "Alow time! Me apertaram na reunião hoje e tive que prometer uma redução dos prazos aí 😞"
+      "standup": [
+        "Bora pra Daily, time?",
+        "Todo mundo preparado pra daily?",
+        "Aquele momento ótimo do dia! Vamos alinhas na nossa daily!",
+        "Opa time, bora fazer a nossa reunião diária!?"
+      ],
+      "align": [
+        "Eae pessoal! Como estamos?",
+        "Fala galerinha! Algum impedimento?",
+        "Opa gente! Tudo dentro pra entregarmos o projeto?",
+        "Alow time! Me apertaram na reunião hoje e tive que prometer uma redução dos prazos aí 😞"
+      ]
     },
     "weekly": {
+      "email": "Pessoal, recebi um email aqui do time de produto",
       "sprint": "Pessoal, bora fazer nossa sprint semanal?"
+    },
+    "debug": {
+      "random1": "Galera, deu ruim. A produção parou... 😫",
+      "random2": ["Opa, voltou! 😁", "Quem pode dar um help? "]
     }
   }
 }
