@@ -35,6 +35,8 @@ const shuffle = (array) =>{
     const j = Math.floor(Math.random() * (i + 1));
     [copy[i], copy[j]] = [copy[j], copy[i]];
   }
+
+  return copy;
 };
 
 const makeCircularRandom = (array) => {
