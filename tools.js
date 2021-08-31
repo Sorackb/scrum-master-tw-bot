@@ -23,11 +23,11 @@ const getFromJSON = (object, path, value = '') => {
     typeof part === 'string' ? part.split('.') : part
   ));
 
-  return pathArrayFlat.reduce((obj, key) => obj && obj[key], object) || value;
+  return pathArrayFlat.reduce((obj, key) => obj && obj[key], object) ?? value;
 };
 
 // Durstenfeld shuffle
-const shuffle = (array) =>{
+const shuffle = (array) => {
   const copy = [...array];
   const { length } = copy;
 

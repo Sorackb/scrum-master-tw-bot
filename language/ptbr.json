@@ -5,13 +5,23 @@
         "Bora pra Daily, time?",
         "Todo mundo preparado pra daily?",
         "Aquele momento ótimo do dia! Vamos alinhas na nossa daily!",
-        "Opa time, bora fazer a nossa reunião diária!?"
+        "Opa time, bora fazer a nossa reunião diária!?",
+        "É isso galera, temos uma daily?"
       ],
       "align": [
         "Eae pessoal! Como estamos?",
         "Fala galerinha! Algum impedimento?",
         "Opa gente! Tudo dentro pra entregarmos o projeto?",
-        "Alow time! Me apertaram na reunião hoje e tive que prometer uma redução dos prazos aí 😞"
+        "Alow time! Me apertaram na reunião hoje e tive que prometer uma redução dos prazos aí 😞",
+        "Vamos marcar um refinamento?",
+        "Pessoal não vamos ter tempo para refinar as historias",
+        "Não dá pra quebrar essa task em duas?",
+        "Será que a gente não consegue quebrar essa task em tipo... umas seis?",
+        "Pessoal, dá pra puxar algo mais do backlog pra sprint?",
+        "Posso gerar a versão?",
+        "Vamos tentar fechar todas as tasks hoje! Tão comigo, pessoal?",
+        "Não esquece de preencher o \"Forms\" do termômetro do time hein galera",
+        "Putz galera, alguém andou fazendo update em produção?"
       ]
     },
     "weekly": {
@@ -19,8 +29,8 @@
       "sprint": "Pessoal, bora fazer nossa sprint semanal?"
     },
     "debug": {
-      "random1": "Galera, deu ruim. A produção parou... 😫",
-      "random2": ["Opa, voltou! 😁", "Quem pode dar um help? "]
+      "random1": "Pessoal do deploy da madrugada, tudo certo pra começarmos?",
+      "random2": ["Alguém tem o telefone do tech lead?", "O time do Chile está aguardando terminarmos"]
     }
   }
 }

@@ -1,9 +1,12 @@
 /* eslint-disable no-console */
 const Twit = require('twit');
+const dotenv = require('dotenv');
 
-const scheduled = require('./scheduled');
+const cron = require('./cron');
 
 console.time('Starting');
+
+dotenv.config();
 
 const bot = new Twit({
   consumer_key: process.env.TWITTER_API_KEY,
@@ -13,6 +16,6 @@ const bot = new Twit({
   timeout_ms: 60 * 1000,
 });
 
-scheduled.start(bot);
+cron.start(bot);
 
 console.timeEnd('Starting');
