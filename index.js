@@ -60,10 +60,12 @@ export const handler = async (executioner) => {
     console.info(`KEY: ${key}`);
     const [status] = shuffle(phrases[key]);
     console.info(`SELECTED PHRASE: ${status}`);
+    console.time('POST EXECUTION');
     result = await client.v2.tweet(status);
+    console.timeEnd('POST EXECUTION');
     console.info('TWITTER API RESULT:', JSON.stringify(result, null, 2));
   } catch (error) {
-    console.error(error);
+    console.trace(error);
     return error;
   }
 
