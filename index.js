@@ -64,6 +64,7 @@ export const handler = async (executioner) => {
     console.info('TWITTER API RESULT:', JSON.stringify(result, null, 2));
   } catch (error) {
     console.error(error);
+    return error;
   }
 
   return result;
